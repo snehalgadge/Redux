@@ -1,11 +1,13 @@
 
 const Button = ({ onClick, children }) => {
     return (
-      <button className="bg-indigo-600 text-white py-2 px-6 my-10 rounded hover:bg-indigo-700"
+      <div className="flex items-center justify-center">
+        <button className="bg-purple-600 text-white py-2 px-6 my-10 rounded hover:bg-purple-500"
         onClick={onClick}
       >
         {children}
       </button>
+      </div>
     )
   }
   
